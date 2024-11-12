@@ -1,0 +1,13 @@
+In HTML, when we talk about semantics, what we mean is that certain elements have actually a meaning or a purpose attached to them.
+
+So when we think about a certain HTML element, we should actually not think about what that element looks like as it's rendered on the page.
+
+But instead, we should think about what element actually means and what it stands for.
+
+That is basically the definition of semantic HTML.
+
+Not all elements in HTML are semantic.
+
+Why do we actually write semantic HTML?
+- Search engine optimization (SEO)
+- Accessibility, especially for people who rely on screen readers to consume our webpages.
