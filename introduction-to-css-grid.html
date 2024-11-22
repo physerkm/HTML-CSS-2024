@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduction to CSS Grid</title>
+    <style>
+      .el--1 {
+        background-color: blueviolet;
+      }
+      .el--2 {
+        background-color: orangered;
+      }
+      .el--3 {
+        background: goldenrod;
+        height: 150px;
+      }
+      .el--4 {
+        background-color: green;
+      }
+      .el--5 {
+        background-color: palevioletred;
+      }
+      .el--6 {
+        background-color: steelblue;
+      }
+      .el--7 {
+        background-color: crimson;
+      }
+      .el--8 {
+        background-color: yellow;
+      }
+
+      .container--1 {
+        /* STARTER */
+        font-family: sans-serif;
+        background-color: #ddd;
+        font-size: 40px;
+        margin: 40px;
+
+        /* CSS GRID */
+        display: grid;
+        grid-template-columns: 500px 500px 300px 300px;
+        grid-template-rows: 300px 200px;
+
+        /* gap: 30px; */
+        column-gap: 50px;
+        row-gap: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container--1">
+      <div class="el el--1">PHYSICS</div>
+      <div class="el el--2">MATHEMATICS</div>
+      <div class="el el--3">CHEMISTRY</div>
+      <div class="el el--4">LINGUISTICS</div>
+      <div class="el el--5">HISTORY</div>
+      <div class="el el--6">PHILOSOPHY</div>
+      <div class="el el--7">SOCIOLOGY</div>
+      <div class="el el--8">PSYCHOLOGY</div>
+    </div>
+  </body>
+</html>
